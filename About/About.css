@@ -1,0 +1,140 @@
+
+/* Globals */
+nav{
+    
+}
+
+.row{
+    width: 100%;
+    padding: 20px 0;
+    float: left;
+}
+
+.rowContent{
+    width: 800px;
+    margin: auto;
+}
+
+.activeTab{
+    color: #0065FF !important;
+    border-color: #0065FF !important;
+}
+
+/*ROW 1 (HEADER)*/
+header{
+    background: #0065FF;
+    background-image: linear-gradient(to right, #0065FF , #5480FF);
+}
+
+/* ROW 2 */
+#row2{
+
+}
+
+#row2 h2{
+    padding: 40px 0 40px 0;
+    font-size: 36px;
+    color: #333333;
+}
+
+#row2 ul{
+    list-style: none;
+    border-bottom: 2px solid #c9c9c9;
+    width: 100%;
+    display: inline-block;
+}
+
+#row2 ul li{
+    float: left;
+    padding: 0 40px 20px 0;
+    cursor: pointer;
+    border-bottom: 2px solid white;
+    color: #c9c9c9;
+    font-weight: bold;
+}
+
+#row2 ul li:hover{
+    color: #0065FF;
+    border-color: #0065FF;
+}
+
+
+/* ROW 3 */
+#row3{
+    
+}
+
+#row3 .rowContent{
+    border-bottom: 2px solid #c9c9c9;
+}
+
+#row3ContentInfo{
+    width: 100%;
+    display: inline-block;
+}
+
+#row3ContentInfo div{
+    width: 50%;
+    box-sizing: border-box;
+    float: left;
+    position: relative;
+}
+
+#row3 img{
+    width: 300px;
+    height: 300px;
+    margin-top: -40px;
+}
+
+#row3ContentInfo div:nth-child(2){
+    margin-top: 50px;
+}
+
+
+/* ROW 4 */
+#row4 .rowContent{
+    border-bottom: 2px solid #c9c9c9;
+}
+
+#row4ContentInfo{
+    width: 100%;
+    display: inline-block;
+    padding: 20px 0;
+}
+
+#row4ContentInfo div{
+    width: 50%;
+    box-sizing: border-box;
+    float: left;
+    position: relative;
+}
+
+#row4 img{
+    width: 200px;
+    height: 200px;
+    margin-top: 0px;
+    float: right;
+}
+
+#row4ContentInfo div:nth-child(1){
+    margin-top: 40px;
+}
+
+
+/* ROW 5 */
+#row5 .rowContent{
+    padding: 40px 0;
+    margin-bottom: 20px;
+    background: #0065FF;
+    background-image: url(../Images/cartographer.png), linear-gradient(to right, #0065FF , #5480FF);
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -o-border-radius: 4px;
+    border-radius: 4px;
+}
+
+#row5 h3{
+    text-align: center;
+    color: white;
+    margin: 20px 0;
+}

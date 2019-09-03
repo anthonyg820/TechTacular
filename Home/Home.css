@@ -99,7 +99,6 @@ nav{
 
 #navList li{
     float: left;
-    display: inline;
     padding: 0 20px;
     position: relative;
 }

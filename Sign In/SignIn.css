@@ -1,0 +1,126 @@
+
+/* Globals */
+nav{
+    
+}
+
+.row{
+    width: 100%;
+    padding: 20px 0;
+    float: left;
+}
+
+.rowContent{
+    width: 1000px;
+    margin: auto;
+}
+
+body{
+    background: #0065FF;
+    background-image: url(../Images/shapes.png), linear-gradient(to bottom, #0065FF , #5480FF);
+    background-attachment: fixed;
+}
+
+footer{
+    position: fixed;
+    bottom: 0;
+}
+
+
+/* SIGN IN BOX */
+#signInBox{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    background: white;
+    width: 300px;
+    height: 350px;
+    margin: -175px auto 0 -150px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -o-border-radius: 4px;
+    border-radius: 4px;
+    -webkit-box-shadow: 0px 0px 10px 2px #444444;
+    -moz-box-shadow: 0px 0px 10px 2px #444444;
+    -o-box-shadow: 0px 0px 10px 2px #444444;
+    box-shadow: 0px 0px 10px 2px #444444;
+    text-align: center;
+}
+
+#signInBox h2{
+    color: #0065FF;
+    text-align: center;
+    font-size: 28px;
+    margin: 15px 0;
+}
+
+#signInBox ul{
+    list-style: none;
+    width: 190px;
+    margin: 0 auto 15px auto;
+}
+
+#signInBox ul li{
+    display: inline-block;
+    margin: auto;
+    cursor: pointer;
+    margin: 0 10px;
+}
+
+#signInBox ul li img{
+    width: 40px;
+    height: 40px;
+}
+
+#signInBox p{
+    margin-bottom: 15px;
+    position: relative;
+}
+
+#signInBox #emailAddrOption:before{
+    content: "";
+    background: #333333;
+    width: 20px;
+    height: 4px;
+    position: absolute;
+    top: 50%;
+    left: 16px;
+}
+
+#signInBox #emailAddrOption:after{
+    content: "";
+    background: #333333;
+    width: 20px;
+    height: 4px;
+    position: absolute;
+    top: 50%;
+    right: 16px;
+}
+
+#signInBox form{
+    
+}
+
+#signInBox form input[type *= "text"],#signInBox form input[type *= "password"]{
+    padding: 10px;
+    margin-bottom: 10px;
+    background: #e9e9e9;
+    outline: 0;
+    border: 0;
+    color: #333333;
+}
+
+#signInBox form input[type *= "submit"]{
+    display: block;
+    margin: auto;
+    outline: 0;
+    border: 0;
+    cursor: pointer;
+    width: 180px;
+    margin-bottom: 10px;
+}
+
+#signInBox p a{
+    color: #FFD677;
+    font-weight: bold;
+}

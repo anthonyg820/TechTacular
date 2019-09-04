@@ -90,7 +90,6 @@ nav{
 #navList li{
     float: left;
     padding: 0 20px;
-    position: relative;
 }
 
 #navList li a{
@@ -116,6 +115,10 @@ nav{
     -moz-border-radius: 4px;
     -o-border-radius: 4px;
     border-radius: 4px;
+    -webkit-box-shadow: 2px 0px 10px 2px #888888;
+    -moz-box-shadow: 2px 0px 10px 2px #888888;
+    -o-box-shadow: 2px 0px 10px 2px #888888;
+    box-shadow: 2px 0px 10px 2px #888888;
     display: none;
 }
 

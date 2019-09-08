@@ -28,14 +28,14 @@ footer{
 
 
 /* SIGN IN BOX */
-#signInBox{
+#signUpBox{
     position: fixed;
     top: 50%;
     left: 50%;
     background: white;
     width: 300px;
-    height: 350px;
-    margin: -175px auto 0 -150px;
+    height: 490px;
+    margin: -245px auto 0 -150px;
     -webkit-border-radius: 4px;
     -moz-border-radius: 4px;
     -o-border-radius: 4px;
@@ -47,37 +47,37 @@ footer{
     text-align: center;
 }
 
-#signInBox h2{
+#signUpBox h2{
     color: #0065FF;
     text-align: center;
     font-size: 28px;
     margin: 15px 0;
 }
 
-#signInBox ul{
+#signUpBox ul{
     list-style: none;
     width: 190px;
     margin: 0 auto 15px auto;
 }
 
-#signInBox ul li{
+#signUpBox ul li{
     display: inline-block;
     margin: auto;
     cursor: pointer;
     margin: 0 10px;
 }
 
-#signInBox ul li img{
+#signUpBox ul li img{
     width: 40px;
     height: 40px;
 }
 
-#signInBox p{
+#signUpBox p{
     margin-bottom: 15px;
     position: relative;
 }
 
-#signInBox #emailAddrOption:before{
+#signUpBox #emailAddrOption:before{
     content: "";
     background: #333333;
     width: 20px;
@@ -87,7 +87,7 @@ footer{
     left: 16px;
 }
 
-#signInBox #emailAddrOption:after{
+#signUpBox #emailAddrOption:after{
     content: "";
     background: #333333;
     width: 20px;
@@ -97,11 +97,11 @@ footer{
     right: 16px;
 }
 
-#signInBox form{
+#signUpBox form{
     
 }
 
-#signInBox form input[type *= "text"],#signInBox form input[type *= "password"]{
+#signUpBox form input[type *= "text"], #signUpBox form input[type *= "password"]{
     padding: 10px;
     margin-bottom: 10px;
     background: #e9e9e9;
@@ -111,7 +111,7 @@ footer{
     width: 75%;
 }
 
-#signInBox form input[type *= "submit"]{
+#signUpBox form input[type *= "submit"]{
     display: block;
     margin: auto;
     outline: 0;
@@ -121,7 +121,7 @@ footer{
     margin-bottom: 10px;
 }
 
-#signInBox p a{
+#signUpBox p a{
     color: #FFD677;
     font-weight: bold;
 }
